@@ -1,0 +1,125 @@
+body{
+    margin:0;
+	padding:0;
+	overflow-x:hidden;
+	padding-bottom: 3em;
+}
+html {
+	scroll-behavior: smooth;
+  }
+a{
+    text-decoration: none;
+    color: black;
+}
+/* Loading CSS */
+#LoadingScreenBody{
+    overflow-y: hidden;
+  }
+.LoadingScreen{
+      background-image:url("../content/loading.png");
+      background-position: center;
+      width: 100vw;
+      height: 100vh ;
+      visibility: visible; 
+      opacity: 1;
+      margin-bottom:-100vh  ;
+      position: absolute;
+  }
+.EndLoading{
+      visibility: hidden;
+      transition: visibility 1s,opacity 0.5s linear;
+      opacity: 0;
+  }
+/* Menu */
+header{
+	display: flex;
+	flex-wrap: nowrap;
+}
+.logo{
+	margin-top:-2em;
+	height: 15em;
+	float:left;
+}
+.icone{
+	width: 45vw;
+	display:flex;
+	flex-grow: 1;
+}
+.Menu{
+	margin-top:-2em;
+	display: flex;
+	float:right;
+	width: 40vw;
+	justify-content: space-between;
+	margin-right: 5em;
+	align-items: center;
+
+}
+.MenuItem{
+	font-family: 'Space Mono', monospace;
+	text-align: center;
+	display: inline;
+	text-decoration-color: transparent;
+
+}
+.MenuItem::after {
+	content: '';
+	width: 0px;
+	height: 1.5px;
+	display: block;
+	background: black;
+	transition: 300ms;
+}
+  
+.MenuItem:hover::after {
+	width: 100%;
+}
+#traitblock1{
+    content: "";
+    width: 20px;
+    border-top: 3px solid black;
+	margin-bottom: 2vw;
+	width: 2.5vw;
+	margin-left: 10vw;
+	transition:4s;
+}
+.projettitle1{
+	font-size: 2.5em;
+	margin-left: 10vw;
+	font-family: 'Georgia', sans-serif;
+}
+.textprojet1{
+	margin-left: 10vw;
+	width: 80%;
+	font-size: 1.7em;
+	text-align: justify;
+	font-family: 'Arial', sans-serif;
+	padding:2px;
+}
+.projetsoustitle1{
+	font-size: 1.5em;
+	margin-left: 10vw;
+	font-family: 'Georgia', sans-serif;
+}
+.divimg{
+	text-align: center;
+}
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 50em;
+    margin: auto;
+}
+a.textprojet1{
+	color:blue;
+	text-decoration: underline;
+}
