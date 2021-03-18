@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8"/>
+    <title>Pxtchi's Website</title>
+    <link rel="stylesheet" href="../CSS/projet.css"/>
+</head>
+<body id = "LoadingScreenBody" onload="setTimeout(loading,1000)";>
+    <script>history.scrollRestoration = "manual" </script>
+    <div class="LoadingScreen"></div>
+<!-- Page content -->
+<header>
+    <div class="icone">
+        <img class="logo" src="../content/logo.png">
+    </div>
+    <div class="Menu">
+            <h2 class = "MenuItem"><a href="../index.html">Page d'Accueil</a></h2>
+            <h2 class = "MenuItem"><a href="projet.html">Mes Projets</a></h2>
+            <h2 class = "MenuItem">A propos de moi</h2>
+    </div>
+</header>
+<section id="block1">
+
+    <h2 class="projettitle1">Création d'une IA en Python.</h2>
+    <h3 class="projetsoustitle1" >01/2021</h3>
+    <section id="traitblock1"></section>
+        <p class ="textprojet1">Au début de janvier 2021, dans le cadre d’un projet universitaire, nous avons eu a développé un intelligence artificielle 
+        pour un jeu rassemblant les principes du jeu du Labyrinthe et du jeu Splatoon. Pour construire cette IA nous avions 1 semaine et avions besoins
+         d’utilisé des scripts codé durant les mois qui précédés.</br> Voici la liste des différents programmes que nous avions a implémenter et de leurs utilités:
+        </p>
+        
+        <ul class ="textprojet1">
+            <li>joueur.py - permettant l'implémentation du joueur.</li>
+            <li>carte.py - permettant l'implémentation d'une carte du Labyrinthe.</li>
+            <li>matrice.py - permettant de travailler avec le plateau qui sera sous la forme d'une matrice et ce fichier contient les fonctions de calcul.</li>
+            <li>participants.py - permettant de regrouper tout les joueurs et d'y définir le joueur courant.</li>
+            <li>plateau.py - permettant l'implémentation du plateau qui est constituer de carte.</li>
+            <li>labyrinthe.py - permettant la création du labyrinthe qui contient toutes le informations des programmes précédants.</li>
+            <li>splaby_o.py - programme principale permettant de tout mettre en communs et de lancer le jeu avec une interface graphique.</li>
+            <li>bot.py - fichier contenant l'IA que nous avons implémenter.</li>
+        </ul>
+
+        <p class ="textprojet1">Notre IA, a terminer en quart de final lors de ce tournois suite a un mauvais choix stratégique.</br>
+        Celle-ci était basé sur plusieurs paramètres :</br>
+        <ul class ="textprojet1">
+            <li>Chercher un joueur si il est a moins de N cases et que notre reserve de peinture était suffisante mais pas trop grande et lui tirer dessus.</li>
+            <li>Chercher un objet si il est a moins de N cases et que notre reserve de peinture était suffisante pour aller vers lui, de plus nous ne devons pas avoir d'objet ou celui-ci doit avoir un nombre de tours restant <= à N.</li>
+            <li>Peindre si aucune des possibilités précédentes n'est possibles.</li>
+            <li>Se déplacer et/ou recharger.</li>
+            <li>Se débloquer en inserant une carte.</li>
+            <li>Inserer une carte au hazard si on ne paut pas se débloquer.</li>
+        </ul>
+        </p>
+    
+        <div class="divimg">
+            <figure>
+        <img class="rendu" src="../content/rendu-graphique.PNG" alt="rendu graphique du jeu">
+        <figcaption>Rendu graphique du jeu.</figcaption>
+        </figure>
+        </div>
+        <p class ="textprojet1">Si vous voulez télécharger les fichier de celui-ci, ils sont disponible sur le liens ci-dessous:</p>
+        <a class ="textprojet1" href="" download="">Téléchargement actuellement indisponible</a>
+
+        
+</section>  
+<a class="scroll-down-arrow" href="#informatique" ></a>
+<section class = "block2" id="informatique">
+   
+</section>
+<script src="../JS/projet.js"></script>
+</body>
+</html>

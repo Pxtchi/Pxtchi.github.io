@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8"/>
+    <title>Pxtchi's Website</title>
+    <link rel="stylesheet" href="CSS/index.css"/>
+</head>
+<body id = "LoadingScreenBody" onload="setTimeout(loading,1000)";>
+    <script>history.scrollRestoration = "manual" </script>
+    <div class="LoadingScreen"></div>
+<!-- Page content -->
+<header>
+    <div class="icone">
+        <img class="logo" src="content/logo.png">
+    </div>
+    <div class="Menu">
+            <h2 class = "MenuItem"><a href="index.html">Page d'Accueil</a></h2>
+            <h2 class = "MenuItem"><a href="HTML/projet.html">Mes Projets</a></h2>
+            <h2 class = "MenuItem">A propos de moi</h2>
+    </div>
+</header>
+<section id="block1">
+    <h2 class="TitrePrincipal1">   Salut,<br>
+    Moi c'est <span Id="pseudo">Pxtchi</span></h2>
+</section>  
+<a class="scroll-down-arrow" href="#informatique" ></a> 
+<section class = "block2" id="informatique">
+    <h2 class="TitrePrincipal2 ml13" id="ml13">Etudiant en IUT Informatique.</h2>
+    <section id="traitblock2"></section>
+    <p class="textINFO">Ici, vous retrouvez mes projets universitaires et mes projets personnels !</p>
+
+    <div class= "BOUTONFLEXITEMS">
+    <a class="nano-button anim-sides" id="scramble-title-button" href="HTML/projet.html" title="Scramble Titles">
+        <svg height="100%" width="100%" xmlns="http://www.w3.org/2000/svg">
+            <rect class="outline" height="100%" width="100%"></rect>
+        </svg>
+        <div class="text">Mes Projets</div>
+    </a>
+    </div>
+
+</section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<script src="JS/index.js"></script>
+</body>
+</html>
