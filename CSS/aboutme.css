@@ -84,16 +84,16 @@ header{
 	transition:4s;
 }
 .projettitle1{
-	font-size: 2.5em;
+	font-size: 5em;
 	margin-left: 10vw;
 	font-family: 'Georgia', sans-serif;
 }
 .textprojet1{
 	margin-left: 10vw;
 	width: 80%;
-	font-size: 1.7em;
+	font-size: 2em;
 	text-align: justify;
-	font-family: 'Arial', sans-serif;
+	font-family: 'Bahnschrift', sans-serif;
 	padding:2px;
 }
 .projetsoustitle1{
@@ -122,4 +122,11 @@ figure {
 a.textprojet1{
 	color:blue;
 	text-decoration: underline;
+}
+#pseudo{
+    color:red;
+    font-size:2.2em;
+    text-decoration: underline;
+    text-decoration-color: #222;
+    text-decoration-thickness: 3px;
 }
