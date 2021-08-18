@@ -89,14 +89,15 @@ header{
 }
 #block1{
 	background-image: url("../content/bg.jpg");
-	background-attachment: local;
-	background-position: right 10% bottom -5%;
+	background-position: right -50% bottom -5%;
 	background-size: 30%;
 	background-repeat: no-repeat;
 	margin-top:-8em;
 	padding-top:8em;
 	margin-bottom:8em;
 	padding-bottom:12em;
+	transition: background-position 0.75s linear;
+
 }
 
 .TitrePrincipal2{
@@ -107,7 +108,7 @@ header{
 section.block2{
 	background-color: black;
 	background-size: 150%;
-	padding-bottom: 100vh;
+	height: 95vh;
 	padding-top:3em;
 	color:white;
 }

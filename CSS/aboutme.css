@@ -87,10 +87,10 @@ header{
 	margin-left: 10vw;
 	font-family: 'Georgia', sans-serif;
 }
-.textprojet1{
+.text{
 	margin-left: 10vw;
 	width: 80%;
-	font-size: 2em;
+	font-size: 1.4em;
 	text-align: justify;
 	font-family: 'Bahnschrift', sans-serif;
 	padding:2px;
@@ -118,7 +118,7 @@ figure {
     max-width: 50em;
     margin: auto;
 }
-a.textprojet1{
+a.text{
 	color:blue;
 	text-decoration: underline;
 }

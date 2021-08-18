@@ -9,6 +9,7 @@ function loading() {
 
     var element = document.getElementById("LoadingScreenBody");
     element.style.overflowY = "visible";
+    backgroundSliding()
 }
 
 var element = document.getElementById("block1");
@@ -74,4 +75,10 @@ anime.timeline({loop: false})
     duration: 1400,
     delay: (el, i) => 300 + 30 * i
   });
+}
+
+//Background sliding
+function backgroundSliding(){
+  var element = document.getElementById("block1");
+  element.style.backgroundPosition = "right 10% bottom -5%";
 }
